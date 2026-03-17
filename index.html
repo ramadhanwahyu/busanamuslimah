@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ummu Hanif Boutique | Busana Muslimah Premium</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body{
+font-family:'Poppins',sans-serif;
+color:#3b2f2f;
+}
+
+h1,h2,h3{
+font-family:'Playfair Display',serif;
+}
+
+.hero-bg{
+background-image:url(images/bmuslimahhero.jpg);
+background-size:cover;
+background-position:center;
+}
+
+.fade-in{
+opacity:0;
+transform:translateY(20px);
+transition:all .8s ease;
+}
+
+.fade-in.show{
+opacity:1;
+transform:translateY(0);
+}
+</style>
+
+</head>
+
+<body class="bg-[#faf7f2]">
+
+<!-- NAVBAR -->
+<header id="navbar" class="fixed w-full z-50 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+<h1 class="text-xl font-semibold">Ummu Hanif Boutique</h1>
+
+<nav class="hidden md:flex space-x-8 text-sm font-medium">
+<a href="#koleksi" class="hover:text-rose-700">Koleksi</a>
+<a href="#keunggulan" class="hover:text-rose-700">Keunggulan</a>
+<a href="#tentang" class="hover:text-rose-700">Tentang</a>
+<a href="#lokasi" class="hover:text-rose-700">Lokasi</a>
+<a href="#kontak" class="hover:text-rose-700">Kontak</a>
+</nav>
+
+<button id="menuBtn" class="md:hidden text-xl">
+<i class="fa-solid fa-bars"></i>
+</button>
+
+</div>
+
+<div id="mobileMenu" class="hidden md:hidden px-6 pb-6 space-y-3 bg-white">
+<a href="#koleksi" class="block">Koleksi</a>
+<a href="#keunggulan" class="block">Keunggulan</a>
+<a href="#tentang" class="block">Tentang</a>
+<a href="#lokasi" class="block">Lokasi</a>
+<a href="#kontak" class="block">Kontak</a>
+</div>
+</header>
+
+
+<!-- HERO -->
+<section class="hero-bg h-screen flex items-center justify-center text-center text-white relative">
+
+<div class="absolute inset-0 bg-black/40"></div>
+
+<div class="relative max-w-3xl px-6 fade-in">
+<h1 class="text-5xl md:text-6xl mb-6">Elegance in Modesty</h1>
+
+<p class="mb-8 text-lg">
+Busana muslimah premium yang memadukan kesederhanaan syar'i dengan keanggunan desain modern.
+</p>
+
+<div class="flex justify-center gap-4">
+<a href="#koleksi" class="bg-rose-700 hover:bg-rose-800 px-7 py-3 rounded-full text-sm font-medium transition">
+Lihat Koleksi
+</a>
+
+<a href="https://wa.me/6281234567890" class="bg-white text-gray-800 hover:bg-gray-200 px-7 py-3 rounded-full text-sm font-medium transition">
+Hubungi Kami
+</a>
+</div>
+</div>
+
+</section>
+
+
+<!-- BRAND INTRO -->
+<section id="tentang" class="py-24 bg-white">
+<div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 px-6 items-center">
+
+<img src="images/bmuslimah2.jpg"
+class="rounded-xl shadow-md">
+
+<div class="fade-in">
+<h2 class="text-3xl mb-6">Tentang Brand Kami</h2>
+
+<p class="text-gray-600 leading-relaxed mb-4">
+Ummu Hanif Boutique menghadirkan koleksi busana muslimah premium dengan fokus pada kesederhanaan yang elegan.
+Setiap desain dibuat dengan bahan pilihan agar nyaman dipakai dalam berbagai aktivitas.
+</p>
+
+<p class="text-gray-600 leading-relaxed">
+Kami percaya bahwa keindahan dalam berpakaian dapat hadir melalui kesopanan,
+kesederhanaan, dan kualitas yang baik.
+</p>
+
+</div>
+</div>
+</section>
+
+
+<!-- FEATURED COLLECTION -->
+<section id="koleksi" class="py-24 bg-[#faf7f2]">
+
+<div class="max-w-7xl mx-auto px-6 text-center">
+
+<h2 class="text-3xl mb-16">Featured Collection</h2>
+
+<div class="grid md:grid-cols-4 gap-10">
+
+<!-- product -->
+<div class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+<div class="aspect-square overflow-hidden">
+<img src="images/bmproduk1.jpg"
+class="w-full h-full object-cover group-hover:scale-105 transition">
+</div>
+
+<div class="p-6">
+<h4 class="font-medium">Abaya Khadijah</h4>
+<p class="text-rose-700 mt-1 mb-4">Rp650.000</p>
+
+<a href="https://wa.me/6281234567890"
+class="text-sm border border-rose-700 text-rose-700 px-4 py-2 rounded-full hover:bg-rose-700 hover:text-white transition">
+Pesan via WhatsApp
+</a>
+</div>
+</div>
+
+<div class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+<div class="aspect-square overflow-hidden">
+<img src="images/bmproduk2.jpg"
+class="w-full h-full object-cover group-hover:scale-105 transition">
+</div>
+
+<div class="p-6">
+<h4 class="font-medium">Gamis Aisyah</h4>
+<p class="text-rose-700 mt-1 mb-4">Rp590.000</p>
+
+<a href="https://wa.me/6281234567890"
+class="text-sm border border-rose-700 text-rose-700 px-4 py-2 rounded-full hover:bg-rose-700 hover:text-white transition">
+Pesan via WhatsApp
+</a>
+</div>
+</div>
+
+<div class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+<div class="aspect-square overflow-hidden">
+<img src="images/bmproduk3.jpg"
+class="w-full h-full object-cover group-hover:scale-105 transition">
+</div>
+
+<div class="p-6">
+<h4 class="font-medium">Khimar Premium</h4>
+<p class="text-rose-700 mt-1 mb-4">Rp280.000</p>
+
+<a href="https://wa.me/6281234567890"
+class="text-sm border border-rose-700 text-rose-700 px-4 py-2 rounded-full hover:bg-rose-700 hover:text-white transition">
+Pesan via WhatsApp
+</a>
+</div>
+</div>
+
+<div class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+<div class="aspect-square overflow-hidden">
+<img src="images/bmproduk2.jpg"
+class="w-full h-full object-cover group-hover:scale-105 transition">
+</div>
+
+<div class="p-6">
+<h4 class="font-medium">Set Busana Syar'i</h4>
+<p class="text-rose-700 mt-1 mb-4">Rp720.000</p>
+
+<a href="https://wa.me/6281234567890"
+class="text-sm border border-rose-700 text-rose-700 px-4 py-2 rounded-full hover:bg-rose-700 hover:text-white transition">
+Pesan via WhatsApp
+</a>
+</div>
+</div>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- KEUNGGULAN -->
+<section id="keunggulan" class="py-24 bg-white">
+
+<div class="max-w-6xl mx-auto px-6 text-center">
+
+<h2 class="text-3xl mb-16">Why Choose Our Collection</h2>
+
+<div class="grid md:grid-cols-4 gap-10 text-sm">
+
+<div class="fade-in">
+<i class="fa-solid fa-gem text-2xl text-rose-700 mb-4"></i>
+<p>Premium Fabric</p>
+</div>
+
+<div class="fade-in">
+<i class="fa-solid fa-leaf text-2xl text-rose-700 mb-4"></i>
+<p>Elegant Design</p>
+</div>
+
+<div class="fade-in">
+<i class="fa-solid fa-heart text-2xl text-rose-700 mb-4"></i>
+<p>Comfortable Wear</p>
+</div>
+
+<div class="fade-in">
+<i class="fa-solid fa-star text-2xl text-rose-700 mb-4"></i>
+<p>Exclusive Limited Design</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- GALLERY -->
+<section class="py-24 bg-[#faf7f2]">
+
+<div class="max-w-7xl mx-auto px-6 text-center">
+
+<h2 class="text-3xl mb-16">Lookbook</h2>
+
+<div class="grid md:grid-cols-4 gap-6">
+
+<img src="images/lookbook1.jpg" class="rounded-lg hover:scale-105 transition">
+
+<img src="images/lookbook2.jpg" class="rounded-lg hover:scale-105 transition">
+
+<img src="images/lookbook3.jpg" class="rounded-lg hover:scale-105 transition">
+
+<img src="images/lookbook1.jpg" class="rounded-lg hover:scale-105 transition">
+
+</div>
+
+</div>
+</section>
+
+
+<!-- TESTIMONI -->
+<section class="py-24 bg-white">
+
+<div class="max-w-6xl mx-auto px-6 text-center">
+
+<h2 class="text-3xl mb-16">Customer Appreciation</h2>
+
+<div class="grid md:grid-cols-3 gap-10 text-sm">
+
+<div class="p-6 shadow-sm rounded-xl">
+<p class="italic">"Bahannya sangat nyaman dan desainnya elegan."</p>
+<p class="mt-4 font-medium">Aisyah</p>
+</div>
+
+<div class="p-6 shadow-sm rounded-xl">
+<p class="italic">"Kualitas premium dan jahitan rapi."</p>
+<p class="mt-4 font-medium">Rahma</p>
+</div>
+
+<div class="p-6 shadow-sm rounded-xl">
+<p class="italic">"Sangat cocok untuk acara formal maupun harian."</p>
+<p class="mt-4 font-medium">Fatimah</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- MAP -->
+<section id="lokasi" class="py-24 bg-[#faf7f2]">
+
+<div class="max-w-6xl mx-auto px-6 text-center">
+
+<h2 class="text-3xl mb-10">Lokasi Toko</h2>
+
+<div class="rounded-xl overflow-hidden shadow-md h-[400px]">
+<iframe class="w-full h-full"
+src="https://www.google.com/maps?q=Padang%20Indonesia&output=embed"></iframe>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CTA -->
+<section class="py-24 bg-rose-700 text-white text-center">
+
+<div class="max-w-3xl mx-auto px-6">
+
+<h2 class="text-4xl mb-6">Temukan Keanggunan dalam Kesederhanaan</h2>
+
+<p class="mb-8">Hubungi kami sekarang untuk mendapatkan koleksi terbaik.</p>
+
+<a href="https://wa.me/6281234567890"
+class="bg-white text-rose-700 px-8 py-3 rounded-full font-medium hover:bg-gray-200 transition">
+Order via WhatsApp
+</a>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="kontak" class="py-24 bg-white">
+
+<div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+
+<div>
+<h2 class="text-3xl mb-6">Kontak Kami</h2>
+
+<p class="mb-4"><i class="fa-solid fa-location-dot mr-2"></i>Padang, Sumatera Barat</p>
+<p class="mb-4"><i class="fa-solid fa-phone mr-2"></i>+62 812 3456 7890</p>
+<p class="mb-4"><i class="fa-solid fa-envelope mr-2"></i>email@ummuhanif.com</p>
+<p class="mb-4"><i class="fa-solid fa-clock mr-2"></i>09.00 - 20.00</p>
+
+</div>
+
+<div>
+
+<h3 class="text-xl mb-4">Follow Us</h3>
+
+<div class="flex gap-6 text-xl">
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-tiktok"></i>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="py-8 bg-[#3b2f2f] text-center text-gray-200 text-sm">
+
+<p>© 2026 Ummu Hanif Boutique. All Rights Reserved.</p>
+
+</footer>
+
+
+<script>
+
+const btn = document.getElementById("menuBtn");
+const menu = document.getElementById("mobileMenu");
+
+btn.addEventListener("click",()=>{
+menu.classList.toggle("hidden");
+});
+
+const navbar = document.getElementById("navbar");
+
+window.addEventListener("scroll",()=>{
+if(window.scrollY > 50){
+navbar.classList.add("bg-white","shadow");
+}else{
+navbar.classList.remove("bg-white","shadow");
+}
+});
+
+const observer = new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add("show");
+}
+});
+});
+
+document.querySelectorAll(".fade-in").forEach(el=>{
+observer.observe(el);
+});
+
+</script>
+
+</body>
+</html>
